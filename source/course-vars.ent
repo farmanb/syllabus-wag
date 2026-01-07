@@ -15,3 +15,6 @@
 <!ENTITY book "Book Title">
 <!ENTITY edition "Nth">
 <!ENTITY ISBN "#############">
+<!ENTITY exam1 "Day of Week, Month Day">
+<!ENTITY exam2 "Day of Week, Month Day">
+<!ENTITY finalexam "Day of Week, Month Day">

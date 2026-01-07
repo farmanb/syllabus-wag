@@ -18,15 +18,15 @@
       </row>
       <row>
 	<cell>Exam 1</cell>
-	<cell>Day, Month Day, &year;</cell>
+	<cell>&exam1;, &year;</cell>
       </row>
       <row>
 	<cell>Exam 2</cell>
-	<cell>Day, Month Day, &year;</cell>
+	<cell>&exam2; &year;</cell>
       </row>
       <row>
 	<cell>Final Exam</cell>
-	<cell>Day, Month Day, &year;</cell>
+	<cell>&finalexam; &year;</cell>
       </row>
     </tabular>
   </assemblage>
