@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="egagement" component="engagement">
+  <title>Participation and Engagement</title>
+  <p>
+    Active participation is essnential for success in this course.
+    Students are expected to attend all classes, contribute to discussions, and engage in collaborative activities.
+    This includes asking questions, sharing insights, and working effectively during in-class exercises or group work.
+  </p>
+  <p>
+    Constructive engagement allows students to deepen their understanding of the material, learn from their peers, and build essential problem-solving and communication skills that will be valuable in future coursework and careers.
+  </p>
+
+  <p component="graduate">
+    Graduate students will take on leadership roles during team-based projects, mentoring undergraduate teammates, facilitating collaboration, and managing project milestones.
+    This experience is designed to enhance both their understanding of the material and their ability to communicate and guide others effectively, which are essential skills for advanced study and professional growth.
+  </p>
+</subsection>

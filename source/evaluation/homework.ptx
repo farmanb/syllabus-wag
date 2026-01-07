@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="homework" component="homework">
+  <title>Homework</title>
+  <p>
+    Homework assignments are a critical component of the course.
+    They are designed to reinforce the concepts covered in lectures and provide hands-on experience.
+    Assignments will include a mix of logical proofs, programming tasks, and conceptual exercises.
+    Solutions must be submitted on time and will be graded for clarity and correctness.
+    Collaboration is encouraged, but each student must submit their own work.
+  </p>
+
+  <p component="graduate">
+    In addition to the core problems assigned to all students, graduate students will tackle advanced exercises that require a deeper understanding of the material and the ability to explore alternative approaches.
+  </p>
+  
+  <p>
+    Homework will be assigned regularly.
+    The problems are chosen to highlight the core concepts from the material.
+    Mastery of these homework sets serves as a good indicator for performance on assessments.
+    As such, you should ensure that you fully understand the material on these homework sets; that is, upon completion of the homework set, you should be capable of completing similar problems without the aid of the text, a computer, or any other tools not available during an exam.
+  </p>
+</subsection>

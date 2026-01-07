@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article [
+<!ENTITY % coursevars SYSTEM "../course-vars.ent">
+%coursevars;
+]>
+<subsection xml:id="exams" component="exams">
+  <title>Exams</title>
+  <p>
+    There will be two in-class exams and a cumulative final exam.
+    The exams are scheduled as follows:
+  </p>
+
+  <assemblage>
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+	<cell>Exam</cell>
+	<cell>Date</cell>
+      </row>
+      <row>
+	<cell>Exam 1</cell>
+	<cell>Day, Month Day, &year;</cell>
+      </row>
+      <row>
+	<cell>Exam 2</cell>
+	<cell>Day, Month Day, &year;</cell>
+      </row>
+      <row>
+	<cell>Final Exam</cell>
+	<cell>Day, Month Day, &year;</cell>
+      </row>
+    </tabular>
+  </assemblage>
+
+  <warning>
+    <p>
+      <ul>
+	<li>
+	  <p>The instructor reserves the right to modify the schedule of in class exams.</p>
+	</li>
+	<li>
+	  <p>
+	    The final exam date and time are scheduled in advanced.
+	    Failure to appear at the final exam will result in a grade of zero for the exam.
+	  </p>
+	</li>
+      </ul>
+    </p>
+  </warning>
+</subsection>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="weights">
+  <title>Weights</title>
+  <p>
+    Grades will be calculated using the weights below.
+  </p>
+
+  <assemblage>
+    <title>Evaluation Criteria</title>
+    <tabular>
+      <row header="yes" bottom="minor" >
+	<cell>Grade Category</cell>
+	<cell>Weight</cell>
+      </row>
+      <row>
+	<cell>Homework</cell>
+	<cell>30%</cell>
+      </row>
+      <row>
+	<cell>Exam 1 </cell>
+	<cell>20%</cell>
+      </row>
+      <row>
+	<cell>Exam 1 </cell>
+	<cell>20%</cell>
+      </row>
+      <row>
+	<cell>Final Exam</cell>
+	<cell>30%</cell>
+      </row>
+    </tabular>
+  </assemblage>
+</subsection>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="grading_scale">
+  <title>Grading Scale</title>
+
+  <p>
+    Letter grades will be assigned based on the scale below.
+  </p>
+
+  <assemblage>
+    <title>Grading Scale</title>
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+	<cell>Average</cell>
+	<cell>Letter Grade</cell>
+      </row>
+      <row>
+	<cell><m>[90\%,100\%]</m></cell>
+	<cell>A</cell>
+      </row>
+      <row>
+	<cell><m>[80\%,90\%)</m></cell>
+	<cell>B</cell>
+      </row>
+      <row>
+	<cell><m>[70\%,80\%)</m></cell>
+	<cell>C</cell>
+      </row>
+      <row>
+	<cell><m>[60\%,70\%)</m></cell>
+	<cell>D</cell>
+      </row>
+      <row>
+	<cell><m>[0\%,60\%)</m></cell>
+	<cell>F</cell>
+      </row>
+    </tabular>
+  </assemblage>
+</subsection>
