@@ -8,7 +8,7 @@
     <dl>
       <li>
 	<title>Professor</title>
-	<p>&profname;</p>
+	<p>&honorific; &firstname; &lastname;</p>
       </li>
       <li>
 	<title>Phone Number</title> 

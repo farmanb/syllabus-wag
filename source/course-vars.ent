@@ -3,8 +3,15 @@
 <!ENTITY term "TERM">
 <!ENTITY year "YEAR">
 <!ENTITY withdraw "Day of Week, Month, Day">
-<!ENTITY profname "<abbr>Dr.</abbr> Blake Farman">
+<!ENTITY honorific "<abbr>Dr.</abbr>">
+<!ENTITY firstname "Blake">
+<!ENTITY lastname "Farman">
+<!ENTITY department "Mathematics and Statistics">
+<!ENTITY institution "Louisiana Tech University">
 <!ENTITY phone "318.257.2951">
 <!ENTITY email "bfarman@latech.edu">
 <!ENTITY website "https://blakefarman.phd">
 <!ENTITY office "Nethken 235">
+<!ENTITY book "Book Title">
+<!ENTITY edition "Nth">
+<!ENTITY ISBN "#############">

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article [
+  <!ENTITY % coursevars SYSTEM "course-vars.ent">
+  %coursevars;
+]>
 <frontmatter xml:id="frontmatter">
   <bibinfo>
     <author>
-      <personname>Blake Farman</personname>
-      <department>Mathematics and Statistics</department>
-      <institution>Louisiana Tech University</institution>
+      <personname>&firstname; &lastname;</personname>
+      <department>&department;</department>
+      <institution>&institution;</institution>
     </author>
     <date>
       <today />
