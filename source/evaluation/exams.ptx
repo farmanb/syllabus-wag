@@ -22,11 +22,11 @@
       </row>
       <row>
 	<cell>Exam 2</cell>
-	<cell>&exam2; &year;</cell>
+	<cell>&exam2;, &year;</cell>
       </row>
       <row>
 	<cell>Final Exam</cell>
-	<cell>&finalexam; &year;</cell>
+	<cell>&finalexam;, &year;</cell>
       </row>
     </tabular>
   </assemblage>
