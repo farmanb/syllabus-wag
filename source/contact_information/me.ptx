@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article [
+  <!ENTITY % coursevars SYSTEM "../course-vars.ent">
+  %coursevars;
+]>
 <introduction>
   <p>
     <dl>
       <li>
 	<title>Professor</title>
-	<p><abbr>Dr.</abbr> Blake Farman</p>
+	<p>&profname;</p>
       </li>
       <li>
 	<title>Phone Number</title> 
-	<p>318.257.2951</p>
+	<p>&phone;</p>
       </li>
       <li>
 	<title>Email Address</title> 
-	<p> <email>bfarman@latech.edu</email></p>
+	<p> <email>&email;</email></p>
       </li>
       <li>
 	<title>Website</title> 
-	<p> <url href="https://blakefarman.phd"/></p>
+	<p><url href="&website;"/></p>
       </li>
       <li>
 	<title>Office</title> 
-	<p>Nethken 235</p>
+	<p>&office;</p>
       </li>
     </dl>
   </p>

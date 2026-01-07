@@ -2,3 +2,8 @@
 <!ENTITY sectionno "SECTION#">
 <!ENTITY term "TERM">
 <!ENTITY year "YEAR">
+<!ENTITY profname "<abbr>Dr.</abbr> Blake Farman">
+<!ENTITY phone "318.257.2951">
+<!ENTITY email "bfarman@latech.edu">
+<!ENTITY website "https://blakefarman.phd">
+<!ENTITY office "Nethken 235">
