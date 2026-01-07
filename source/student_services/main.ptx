@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="student_services" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Student Services</title>
+
+  <xi:include href="disability.ptx"/>
+  <xi:include href="counseling.ptx"/>
+  <xi:include href="nondiscrimination.ptx"/>
+  <xi:include href="ens.ptx"/>
+  <xi:include href="withdraw.ptx"/>
+  <xi:include href="lms_help.ptx"/>
+  <xi:include href="barc.ptx"/>
+  <xi:include href="math_club.ptx"/>
+</section>

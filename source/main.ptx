@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE article [
+  <!ENTITY % coursevars SYSTEM "./course-vars.ent">
+  %coursevars;
+]>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+  
+  <article xml:id="syllabus">
+    <title>Syllabus</title>
+    <subtitle>Math &courseno; <ndash/> &sectionno; <ndash/> &term; &year;</subtitle>
+
+    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./contact_information/main.ptx" />
+    <xi:include href="./course_information/main.ptx"/>
+    <xi:include href="./evaluation/main.ptx"/>
+    <xi:include href="./course_policies/main.ptx"/>
+    <xi:include href="./student_services/main.ptx"/>
+    <xi:include href="./schedule/main.ptx"/>
+  </article>
+</pretext>
+

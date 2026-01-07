@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="academic_honor_code">
+  <title>Academic Honor Code</title>
+  <p>
+    In accordance with the <url href="https://www.latech.edu/documents/provost/academic-honor-code.pdf">Academic Honor Code</url>, students pledge the following:
+  </p>
+
+  <blockquote>
+    <p>
+      <q>Being a student of higher standards, I pledge to embody the principles of academic integrity.</q>
+    </p>
+  </blockquote>
+  
+  <p>
+    Any suspected case of academic dishonesty will be reported.
+    If it is determined that academic misconduct has occurred, the student <alert>will receive a grade of F for the course</alert> and may be dismised from the University.
+  </p>
+</subsection>

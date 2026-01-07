@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="policies" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Policies and Procedures</title>
+  <introduction>
+    <p>
+      At a minimum, all policies stated in the current <url href="https://www.latech.edu/documents/student-life/student-handbook.pdf">Louisiana Tech University Student Handbook</url> should be followed.
+      Additional class policies follow.
+    </p>
+  </introduction>
+  
+<xi:include href="./textbook.ptx"/>  
+<xi:include href="./attendance.ptx"/>
+<xi:include href="./late.ptx"/>
+<xi:include href="./make-up.ptx"/>
+<xi:include href="./honor_code.ptx"/>
+</section>

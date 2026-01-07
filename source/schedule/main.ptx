@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="schedule" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Schedule</title>
+  <xi:include href="week01.ptx"/>
+  <xi:include href="week02.ptx"/>
+  <xi:include href="week03.ptx"/>
+  <xi:include href="week04.ptx"/>
+  <xi:include href="week05.ptx"/>
+  <xi:include href="week06.ptx"/>
+  <xi:include href="week07.ptx"/>
+  <xi:include href="week08.ptx"/>
+  <xi:include href="week09.ptx"/>
+  <xi:include href="week10.ptx"/>
+  <xi:include href="week11.ptx"/>
+
+  <conclusion>
+    <warning>
+      <p>
+        The instructor reserves the right to modify the schedule as needed.
+      </p>
+    </warning>
+  </conclusion>
+</section>

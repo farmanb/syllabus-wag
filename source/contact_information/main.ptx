@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="contact_information" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Contact Information</title>
+
+  <xi:include href="./me.ptx"/>
+  <xi:include href="./office_hours.ptx"/>
+  <xi:include href="./contact_method.ptx"/>
+  <xi:include href="./university_email.ptx"/>
+  <xi:include href="./email_etiquette.ptx"/>
+  
+</section>

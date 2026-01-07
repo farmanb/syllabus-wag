@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="office_hours">
+  <title>Office Hours</title>
+  <p>
+    <dl>
+      <li>
+	<title>Days</title>
+	<p>TIME <init>PM</init> <ndash/> TIME <init>PM</init></p>
+      </li>
+    </dl>
+  </p>
+</subsection>

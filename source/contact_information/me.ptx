@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<introduction>
+  <p>
+    <dl>
+      <li>
+	<title>Professor</title>
+	<p><abbr>Dr.</abbr> Blake Farman</p>
+      </li>
+      <li>
+	<title>Phone Number</title> 
+	<p>318.257.2951</p>
+      </li>
+      <li>
+	<title>Email Address</title> 
+	<p> <email>bfarman@latech.edu</email></p>
+      </li>
+      <li>
+	<title>Website</title> 
+	<p> <url href="https://blakefarman.phd"/></p>
+      </li>
+      <li>
+	<title>Office</title> 
+	<p>Nethken 235</p>
+      </li>
+    </dl>
+  </p>
+</introduction>

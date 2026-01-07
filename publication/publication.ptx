@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<publication>
+  <common>
+    <!-- Level at which are html files generated (chapter/section/etc): -->
+    <chunking level="1" />
+    <!-- Depth for table of contents.  0 means no TOC -->
+    <tableofcontents level="2" />
+  </common>
+
+  <!-- directories are relative to the main source PreTeXt file -->
+  <source>
+    <directories external="../assets" generated="../generated-assets"/>
+    <!-- Version flags -->
+    <!-- graduate: Cross listed as a 5XXX or 6XXX course. -->
+    <!-- exams: Course has exams. -->
+    <!-- engagement: Course has graded engagement/participation. -->
+    <!-- homework: Course has homework -->
+    <!-- quizzes: Course has quizzes -->
+    <!-- BARC: Course has university tutoring resources -->
+    <!-- mathclub: Course has club tutoring resources -->
+    <version include="graduate exams engagement homework quizzes"/>
+  </source>
+  
+  <latex print="no" sides="one" font-size="10" draft="no">
+    <page right-alignment="flush" bottom-alignment="ragged">
+      <geometry>margin={1in}</geometry>
+    </page>
+  </latex>
+
+  <html favicon="simple">
+    <css theme="denver" color-main="#003087"/> <!-- Tech blue main color -->
+  </html>
+</publication>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="course_information" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Information</title>
+  <xi:include href="./course_description.ptx" />
+  <xi:include href="./prereqs.ptx" />
+  <xi:include href="./student_learning_outcomes.ptx" />
+  <xi:include href="./course_topics.ptx"/>
+  <xi:include href="./instructional_methods.ptx"/>
+</section>

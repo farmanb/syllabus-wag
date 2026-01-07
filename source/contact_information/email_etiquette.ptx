@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article [
+  <!ENTITY % coursevars SYSTEM "../course-vars.ent">
+  %coursevars;
+]>
+<subsection xml:id="email_etiquette">
+  <title>Email Etiquette</title>
+  <p>
+    When you send an email, your message should contain the following information
+    <dl>
+      <li>
+	<title>Subject</title>
+	<p>
+	  A few words that describe the content of your email along with the course identifier (Math &courseno; <ndash/> &sectionno;)
+	</p>
+      </li>
+      <li>
+	<title>Salutation</title>
+	<p>
+	  A professional greeting such as <q>Dear</q> or <q>Hello</q> followed by the appropriate honorific and the recipient's last name (<eg/> <abbr>Dr.</abbr> X).
+	  <ul>
+	    <li>
+	      <p>
+		If the person you are addressing holds a doctorate (<eg/> a <abbr>PhD</abbr>), then you should address the recipient as <abbr>Dr.</abbr> X, never
+		<abbr>Mr.</abbr> X, <abbr>Ms.</abbr> X, or <abbr>Mrs.</abbr> X.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		If you are unsure, Professor X is generally a safe way to address a faculty member.
+	      </p>
+	    </li>
+	  </ul>
+	</p>
+      </li>
+      <li>
+	<title>Body</title>
+	<p>
+	  A concise message that clearly expresses the purpose of your email.
+	</p>
+      </li>
+      <li>
+	<title>Signature</title>
+	<p>
+	  A simple closing (e.g. <q>Sincerely,</q> <q>Thank you,</q> <q>Best regards,</q> <etc/>) followed by your first and last name.
+	</p>
+      </li>
+    </dl>
+    For your convenience, included below is an example email.
+  </p>
+  <assemblage>
+    <title>Sample Email</title>
+    <p>
+      Subject: Meeting - Math &courseno; <ndash/> &sectionno;
+    </p>
+
+    <p>Dear <abbr>Dr.</abbr> Farman,</p>
+
+    <p>
+      I am having trouble with this week's homework.
+      I have tried working through the examples in the text, but I am struggling to understand the concepts involved.
+      Could we schedule a time to meet before the next class to discuss some of the concepts in more detail?
+    </p>
+
+    <p>Thank you,</p>
+    
+    <p>Jane Doe</p>
+  </assemblage>
+</subsection>

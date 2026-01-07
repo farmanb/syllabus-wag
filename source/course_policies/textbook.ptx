@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="textbook">
+  <title>Textbook</title>
+  <assemblage>
+    <title>Required Textbook</title>
+    <p>
+      <pubtitle>Book Title</pubtitle>, Nth edition, by Authors, <init>ISBN</init> #############.
+    </p>
+  </assemblage>
+
+</subsection>
