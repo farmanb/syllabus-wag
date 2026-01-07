@@ -2,6 +2,7 @@
 <!ENTITY sectionno "SECTION#">
 <!ENTITY term "TERM">
 <!ENTITY year "YEAR">
+<!ENTITY withdraw "Day of Week, Month, Day">
 <!ENTITY profname "<abbr>Dr.</abbr> Blake Farman">
 <!ENTITY phone "318.257.2951">
 <!ENTITY email "bfarman@latech.edu">
