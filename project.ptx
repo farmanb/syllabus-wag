@@ -7,6 +7,7 @@
   <targets>
     <target name="web" format="html" />
     <target name="print" format="pdf" />
+    <target name="scorm" format="html" compression="scorm" publication="scorm.ptx"/>
   </targets>
 </project>
 
