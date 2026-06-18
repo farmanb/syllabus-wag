@@ -1,5 +1,23 @@
 # Syllabus Template
 This is a [PreTeXt](https://pretextbook.org/documentation.html) syllabus template for courses that use a weighted average grading scheme.
+
+## Customizing the syllabus
+
+Most per-course details are defined as entities in [`source/course-vars.ent`](source/course-vars.ent). Edit the values there to set:
+
+- the course number, section, term, and year;
+- the instructor's honorific, name, phone, email, website, and office;
+- the textbook title, edition, and ISBN;
+- the two exam dates, the final exam date, and the drop-with-a-`W` deadline.
+
+Each value is reused throughout the document, so editing it in one place updates every section that references it.
+
+The remaining placeholder prose — the course description, topics, prerequisites, student learning outcomes, office-hour times, and the grading weights and scale — should be filled in directly in the corresponding files under `source/`.
+
+## Building
+
+This is a standard PreTeXt project. See the [PreTeXt documentation](https://pretextbook.org/documentation.html) for how to install the PreTeXt-CLI, build and preview the document, and deploy it.
+
 ## Schedule
 
 Use the utility `make_weeks.py` to generate a skeleton schedule. It will write the files `main.ptx` and `weekXX.ptx` with the boilerplate "Material" listed for each day the course meets.
@@ -40,3 +58,7 @@ Several sections are conditional. They are tagged in the source with a `componen
 | `mathclub` | Math Club tutoring resources. |
 
 `BARC` and `mathclub` are off by default; enable them only for service-level courses where tutoring is available through those resources.
+
+## License
+
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). See [`LICENSE`](LICENSE) for the full text.
