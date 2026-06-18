@@ -7,7 +7,7 @@ Most per-course details are defined as entities in [`source/course-vars.ent`](so
 
 - the course number, section, term, and year;
 - the instructor's honorific, name, phone, email, website, and office;
-- the textbook title, edition, and ISBN;
+- the textbook title, author, edition, and ISBN;
 - the two exam dates, the final exam date, and the drop-with-a-`W` deadline.
 
 Each value is reused throughout the document, so editing it in one place updates every section that references it.

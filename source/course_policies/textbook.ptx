@@ -8,7 +8,7 @@
   <assemblage>
     <title>Required Textbook</title>
     <p>
-      <pubtitle>&book;</pubtitle>, &edition; edition, by Authors, <init>ISBN</init> &ISBN;.
+      <pubtitle>&book;</pubtitle>, &edition; edition, by &author;, <init>ISBN</init> &ISBN;.
     </p>
   </assemblage>
 
