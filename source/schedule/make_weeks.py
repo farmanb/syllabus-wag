@@ -3,9 +3,20 @@
 Generate PreTeXt weekly schedule files (weekXX.ptx) for a course,
 plus a main.ptx that includes them all.
 
+Usage:
+    python3 make_weeks.py START END DAYS [--no-class DATES]
+
+    START, END   Quarter start/end dates as M/D/YYYY (inclusive).
+    DAYS         Meeting days, given either as space/comma-separated names
+                 ("Mon Wed", "Tue, Thu") or as a compact code string
+                 ("MWF", "TR", "TTh", "MTWRF"). Day letters: M T W R(=Thu)
+                 F, with Sa/Su for the weekend.
+    --no-class   Optional space/comma-separated M/D/YYYY dates to skip.
+
 Usage examples:
     python3 make_weeks.py 3/12/2026 6/2/2026 "Mon Wed"
     python3 make_weeks.py 3/12/2026 6/2/2026 "MWF" --no-class 3/27/2026,4/10/2026
+    python3 make_weeks.py 3/12/2026 6/2/2026 "TTh"
 """
 
 import sys
@@ -37,27 +48,49 @@ def parse_date_list(s: str):
     return {parse_date(p) for p in parts}
 
 
+def decompose_compact(tok: str):
+    """
+    Decompose a separator-free token like 'MWF', 'TR', or 'TTh' into weekday
+    numbers by scanning left to right, preferring a two-character code (e.g.
+    'Th', 'Sa', 'Su') over a one-character code so ambiguous runs resolve
+    correctly. Raises ValueError if any part is unrecognized.
+    """
+    key = tok.lower()
+    weekdays = []
+    i = 0
+    while i < len(key):
+        if key[i:i + 2] in DAY_NAME_MAP:
+            weekdays.append(DAY_NAME_MAP[key[i:i + 2]])
+            i += 2
+        elif key[i:i + 1] in DAY_NAME_MAP:
+            weekdays.append(DAY_NAME_MAP[key[i:i + 1]])
+            i += 1
+        else:
+            raise ValueError(f"Unknown day token: {tok!r}")
+    return weekdays
+
+
 def parse_meeting_days(meeting_days_str: str):
     """
-    Convert 'Mon Wed' or 'MWF' into a sorted list of weekday numbers.
-    Monday = 0, Sunday = 6.
-    """
-    s = meeting_days_str.replace(",", " ").strip()
+    Convert 'Mon Wed', 'Tue Thu', 'MWF', 'TR', or 'TTh' into a sorted list of
+    weekday numbers. Monday = 0, Sunday = 6.
 
-    # Compact form like "MWF" or "TR"
-    if " " not in s and s.isalpha() and 1 < len(s) <= 3:
-        tokens = list(s)
-    else:
-        tokens = s.split()
+    Tokens are first split on whitespace/commas. A token that is itself a known
+    day name (e.g. 'Mon', 'Fri') is used directly; otherwise it is treated as a
+    compact code (e.g. 'MWF') and decomposed into individual days.
+    """
+    tokens = meeting_days_str.replace(",", " ").split()
 
     weekdays = []
     for tok in tokens:
         key = tok.lower()
-        if key not in DAY_NAME_MAP:
-            raise ValueError(f"Unknown day token: {tok!r}")
-        wd = DAY_NAME_MAP[key]
-        if wd not in weekdays:
-            weekdays.append(wd)
+        if key in DAY_NAME_MAP:
+            matches = [DAY_NAME_MAP[key]]
+        else:
+            matches = decompose_compact(tok)
+        for wd in matches:
+            if wd not in weekdays:
+                weekdays.append(wd)
 
     weekdays.sort()
     return weekdays
