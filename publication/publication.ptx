@@ -28,6 +28,6 @@
   </latex>
 
   <html favicon="simple">
-    <css theme="boulder" primary-color="#003087"/> <!-- Tech blue main color -->
+    <css theme="boulder" primary-color="#0A3254" primary-color-dark="#B73E26"/> <!-- Vintage Tech blue main color; Vintage Tech red primary dark color -->
   </html>
 </publication>
