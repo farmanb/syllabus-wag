@@ -24,3 +24,19 @@ python3 make_weeks.py 3/12/2026 6/2/2026 "TTh"
 ```
 
 After generating the skeleton, replace each day's "Material" placeholder with the actual topics.
+
+## Optional sections (version flags)
+
+Several sections are conditional. They are tagged in the source with a `component` attribute and are only rendered when that component is listed in the `<version include="…"/>` element in `publication/publication.ptx`. To turn a section on or off, add or remove its flag from that list.
+
+| Flag | Controls |
+| --- | --- |
+| `graduate` | Extra expectations for cross-listed 5XXX/6XXX courses. |
+| `exams` | Exams section and make-up policy. |
+| `engagement` | Graded participation/engagement. |
+| `homework` | Homework section. |
+| `quizzes` | Quizzes section. |
+| `BARC` | BARC university tutoring resources. |
+| `mathclub` | Math Club tutoring resources. |
+
+`BARC` and `mathclub` are off by default; enable them only for service-level courses where tutoring is available through those resources.
