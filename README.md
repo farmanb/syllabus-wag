@@ -54,14 +54,14 @@ The evaluation and policy sections (`exams.ptx`, `homework.ptx`, `quizzes.ptx`, 
 
 A few values are hard-coded rather than driven by entities. Change them when adopting the template:
 
-- [`source/frontmatter.ptx`](source/frontmatter.ptx) — copyright holder and years, and the title-page website URL (this one does not use the `website` entity).
+- [`source/frontmatter.ptx`](source/frontmatter.ptx) — copyright holder and years.
 - [`source/docinfo.ptx`](source/docinfo.ptx) — the brand logo and the URL it links to.
 - [`assets/images/`](assets/images) — the Louisiana Tech logos, including `logo.png` referenced by `docinfo.ptx`.
 - [`publication/publication.ptx`](publication/publication.ptx) — the HTML theme and its primary colors (currently the `boulder` theme in Louisiana Tech blue and red).
 
 ## Building
 
-This is a standard PreTeXt project; [`requirements.txt`](requirements.txt) pins the PreTeXt-CLI version the project was generated with. With the CLI installed:
+This is a standard PreTeXt project; [`requirements.txt`](requirements.txt) pins the PreTeXt-CLI version to build with. With the CLI installed:
 
 ```sh
 pip install -r requirements.txt
