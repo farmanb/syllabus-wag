@@ -1,2 +1,2 @@
-# This file was automatically generated with PreTeXt 2.42.0.
-pretext == 2.42.0
+# Originally generated with PreTeXt 2.42.0; pin updated by hand.
+pretext == 2.47.1
