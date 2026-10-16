@@ -3,7 +3,7 @@
   <!ENTITY % coursevars SYSTEM "../course-vars.ent">
   %coursevars;
 ]>
-<subsection xml:id="email_etiquette">
+<subsection xml:id="email_etiquette" label="email_etiquette">
   <title>Email Etiquette</title>
   <p>
     When you send an email, your message should contain the following information
@@ -48,7 +48,7 @@
     </dl>
     For your convenience, included below is an example email.
   </p>
-  <assemblage>
+  <assemblage xml:id="sample_email">
     <title>Sample Email</title>
     <p>
       Subject: Meeting - Math &courseno; <ndash/> &sectionno;

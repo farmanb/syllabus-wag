@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="weights">
+<subsection xml:id="weights" label="weights">
   <title>Weights</title>
   <p>
     Grades will be calculated using the weights below.
   </p>
 
-  <assemblage>
+  <assemblage xml:id="evaluation_criteria">
     <title>Evaluation Criteria</title>
     <tabular>
       <row header="yes" bottom="minor" >

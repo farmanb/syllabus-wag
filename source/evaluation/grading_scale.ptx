@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="grading_scale">
+<subsection xml:id="grading_scale" label="grading_scale">
   <title>Grading Scale</title>
 
   <p>
     Letter grades will be assigned based on the scale below.
   </p>
 
-  <assemblage>
+  <assemblage xml:id="grading_scale_table">
     <title>Grading Scale</title>
     <tabular halign="center">
       <row header="yes" bottom="minor" >

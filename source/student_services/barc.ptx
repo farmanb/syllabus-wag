@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="BARC" component="BARC">
+<subsection xml:id="BARC" label="BARC" component="BARC">
   <title>BARC</title>
 
   <p>

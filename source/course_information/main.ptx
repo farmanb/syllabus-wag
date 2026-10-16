@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="course_information" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="course_information" label="course_information" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Course Information</title>
   <xi:include href="./course_description.ptx" />
   <xi:include href="./prereqs.ptx" />

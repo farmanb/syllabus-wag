@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="office_hours">
+<subsection xml:id="office_hours" label="office_hours">
   <title>Office Hours</title>
   <p>
     <dl>

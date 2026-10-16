@@ -3,7 +3,7 @@
 <!ENTITY % coursevars SYSTEM "../course-vars.ent">
 %coursevars;
 ]>
-<section xml:id="evaluation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="evaluation" label="evaluation" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Evaluation</title>
 
   <xi:include href="exams.ptx"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="non-discrimination">
+<subsection xml:id="non-discrimination" label="non-discrimination">
   <title>Non-Discrimination</title>
   <p>
     Louisiana Tech University is committed to the principle of providing the opportunity for learning and development of all qualified citizens without regard to race, color, national origin, religion, age, sex, sexual orientation, marital status, or disability.
     Persons with concerns may contact the Louisiana Tech Director of Title IX Compliance:
   </p>
   
-  <assemblage>
+  <assemblage xml:id="title_ix_contact">
     <p>
       <dl>
 	<li>
@@ -35,7 +35,7 @@
     Persons with concerns may contact the Section 504 Coordinator:
   </p>
 
-  <assemblage>
+  <assemblage xml:id="section_504_contact">
 
     <p>
       <dl>

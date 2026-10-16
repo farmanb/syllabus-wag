@@ -3,9 +3,9 @@
   <!ENTITY % coursevars SYSTEM "../course-vars.ent">
   %coursevars;
 ]>
-<subsection xml:id="textbook">
+<subsection xml:id="textbook" label="textbook">
   <title>Textbook</title>
-  <assemblage>
+  <assemblage xml:id="required_textbook">
     <title>Required Textbook</title>
     <p>
       <pubtitle>&book;</pubtitle>, &edition; edition, by &author;, <init>ISBN</init> &ISBN;.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="contact_information" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="contact_information" label="contact_information" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Contact Information</title>
 
   <xi:include href="./me.ptx"/>

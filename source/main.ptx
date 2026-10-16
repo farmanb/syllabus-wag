@@ -6,7 +6,7 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="./docinfo.ptx" />
   
-  <article xml:id="syllabus">
+  <article xml:id="syllabus" label="syllabus">
     <title>Syllabus</title>
     <subtitle>Math &courseno; <ndash/> &sectionno; <ndash/> &term; &year;</subtitle>
 

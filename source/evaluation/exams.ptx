@@ -3,14 +3,14 @@
 <!ENTITY % coursevars SYSTEM "../course-vars.ent">
 %coursevars;
 ]>
-<subsection xml:id="exams" component="exams">
+<subsection xml:id="exams" label="exams" component="exams">
   <title>Exams</title>
   <p>
     There will be two in-class exams and a cumulative final exam.
     The exams are scheduled as follows:
   </p>
 
-  <assemblage>
+  <assemblage xml:id="exam_schedule">
     <tabular halign="center">
       <row header="yes" bottom="minor" >
 	<cell>Exam</cell>
@@ -31,7 +31,7 @@
     </tabular>
   </assemblage>
 
-  <warning>
+  <warning xml:id="exam_warning">
     <p>
       <ul>
 	<li>

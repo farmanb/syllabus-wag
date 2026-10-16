@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="math_club" component="mathclub">
+<subsection xml:id="math_club" label="math_club" component="mathclub">
   <title>Math Club</title>
   <p>
     The math club hosts free, weekly <term>Math &amp; Music</term> tutoring sessions.

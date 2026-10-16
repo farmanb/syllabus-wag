@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="student_services" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="student_services" label="student_services" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Student Services</title>
 
   <xi:include href="disability.ptx"/>

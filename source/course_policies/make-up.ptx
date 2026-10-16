@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<subsection xml:id="make-up_policy" component="exams">
+<subsection xml:id="make-up_policy" label="make-up_policy" component="exams">
   <title>Make-up Policy</title>
   <p>
     In the event of one missed exam due to absence, the Final Exam can be used to replace the missing exam.
