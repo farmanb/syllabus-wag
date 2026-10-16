@@ -9,7 +9,8 @@
 
   <!-- directories are relative to the main source PreTeXt file -->
   <source>
-    <directories external="../assets" generated="../generated-assets"/>
+    <!-- The external directory is declared in source/docinfo.ptx -->
+    <directories generated="../generated-assets"/>
     <!-- Version flags -->
     <!-- graduate: Cross listed as a 5XXX or 6XXX course. -->
     <!-- exams: Course has exams. -->
@@ -28,6 +29,7 @@
   </latex>
 
   <html favicon="simple">
-    <css theme="boulder" primary-color="#0A3254" primary-color-dark="#B73E26"/> <!-- Vintage Tech blue main color; Vintage Tech red primary dark color -->
+    <brandlogo url="https://latech.edu" source="images/logo.png"/>
+    <css theme="boulder" primary-color="#0A3254" primary-color-dark="#D9705A"/> <!-- Vintage Tech blue main color; lightened Vintage Tech red for dark mode, to meet the contrast check -->
   </html>
 </publication>

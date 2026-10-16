@@ -1,2 +1,2 @@
 # Originally generated with PreTeXt 2.42.0; pin updated by hand.
-pretext == 2.47.1
+pretext == 2.55.0

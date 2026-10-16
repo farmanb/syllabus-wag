@@ -20,7 +20,7 @@ source/
   evaluation/            Weights, grading scale, exams, homework, quizzes, engagement
   course_policies/       Textbook, attendance, late work, make-ups, honor code
   student_services/      Disability, counseling, ENS, withdrawal, LMS help, tutoring
-  schedule/              make_weeks.py plus the generated weekXX.ptx files
+  schedule/              make_schedule.py and the generated main.ptx table
 ```
 
 ## Customizing the syllabus
@@ -73,36 +73,35 @@ pretext view           # preview in a browser
 
 Two conveniences come with the repo:
 
-- [`.devcontainer.json`](.devcontainer.json) lets the project be edited and built in GitHub Codespaces without a local install.
+- [`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json) lets the project be edited and built in GitHub Codespaces without a local install.
 - [`.github/workflows/pretext-cli.yml`](.github/workflows/pretext-cli.yml) builds the project on every pull request (and on demand via *Run workflow*), uploading the staged site as an artifact. It also deploys to Cloudflare Pages when the `CLOUDFLARE_PROJECT_NAME` repository variable is set, and to GitHub Pages when `PTX_ENABLE_DEPLOY_GHPAGES` is `yes` and the run is on the default branch. Building on pushes to `main` is commented out in that file.
 
 ## Schedule
 
-Use the utility `make_weeks.py` to generate a skeleton schedule. It will write the files `main.ptx` and `weekXX.ptx` with the boilerplate "Material" listed for each day the course meets.
+Use the utility `make_schedule.py` to generate a skeleton schedule. It writes `main.ptx` as a single table with one row per class meeting and columns for Date, Topic, and Homework, with the placeholders "Material" and "Homework" in each row. Thin rules separate days and heavy rules separate weeks, and the usual "the instructor reserves the right to modify the schedule" notice is part of the table caption.
 
-The script writes its output to the current working directory and overwrites any existing `main.ptx`/`weekXX.ptx`, so run it from inside `source/schedule/`:
+The script writes `main.ptx` next to itself in `source/schedule/`, so it can be run from anywhere. It refuses to overwrite an existing `main.ptx` unless you pass `--force`, since that file holds the hand-entered schedule:
 
 ```sh
-cd source/schedule
-python3 make_weeks.py START END DAYS [--no-class DATES]
+python3 source/schedule/make_schedule.py START END DAYS [--no-class DATES] [--force]
 ```
 
 - `START`, `END` — quarter start/end dates as `M/D/YYYY` (inclusive).
 - `DAYS` — meeting days, given either as space/comma-separated names (`"Mon Wed"`, `"Tue, Thu"`) or as a compact code string (`"MWF"`, `"TR"`, `"TTh"`, `"MTWRF"`). Day letters are `M T W R F` (with `R` = Thursday) plus `Sa`/`Su` for the weekend.
-- `--no-class` — optional space/comma-separated `M/D/YYYY` dates to skip (e.g. holidays). Because the first three arguments are positional, this flag has to come last.
+- `--no-class` — optional space/comma-separated `M/D/YYYY` dates to skip (e.g. holidays). Because the first three arguments are positional, this flag has to come after them.
+- `--force` — overwrite an existing `main.ptx`.
 
 Examples:
 
 ```sh
-python3 make_weeks.py 3/12/2026 6/2/2026 "Mon Wed"
-python3 make_weeks.py 3/12/2026 6/2/2026 "MWF" --no-class 3/27/2026,4/10/2026
-python3 make_weeks.py 3/12/2026 6/2/2026 "TTh"
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "Mon Wed"
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "MWF" --no-class 3/27/2026,4/10/2026
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "TTh" --force
 ```
 
-Weeks run Monday through Sunday and are numbered from the Monday of the week containing `START`, so a term that begins mid-week still starts at `week01`. Any leftover `weekXX.ptx` files from a longer previous term are not deleted — remove them by hand.
+Weeks are grouped by calendar week (Monday through Sunday), so a term that begins mid-week still starts with a short first week.
 
-After generating the skeleton, replace each day's "Material" placeholder with the actual topics.
-
+After generating the skeleton, replace each day's "Material" and "Homework" placeholders. Two conventions keep the PDF build looking right: text that may need to wrap should sit inside a `<p>` (PreTeXt only wraps table cells in LaTeX when they contain a paragraph), and a day with two topics should use two `<line>` elements instead, which keeps them on tight consecutive lines. Delete the Homework cell's paragraph to leave it blank.
 ## Optional sections (version flags)
 
 Several sections are conditional. They are tagged in the source with a `component` attribute and are only rendered when that component is listed in the `<version include="…"/>` element in [`publication/publication.ptx`](publication/publication.ptx). To turn a section on or off, add or remove its flag from that list.
