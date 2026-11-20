@@ -7,6 +7,7 @@
   <title>Exams</title>
   <p>
     There will be two in-class exams and a cumulative final exam.
+    The in-class exams will be given during the regular class meeting time in our usual classroom.
     The exams are scheduled as follows:
   </p>
 
@@ -31,11 +32,16 @@
     </tabular>
   </assemblage>
 
+  <p>
+    All exams are completed individually and are governed by the <xref ref="academic_honor_code" text="title"/>.
+    The policy for a missed exam is described in <xref ref="make-up_policy"/>.
+  </p>
+
   <warning xml:id="exam_warning">
     <p>
       <ul>
 	<li>
-	  <p>The instructor reserves the right to modify the schedule of in class exams.</p>
+	  <p>The instructor reserves the right to modify the schedule of in-class exams.</p>
 	</li>
 	<li>
 	  <p>

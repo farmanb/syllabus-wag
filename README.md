@@ -18,7 +18,7 @@ source/
   contact_information/   Instructor info, office hours, email etiquette
   course_information/    Description, topics, prerequisites, SLOs, methods
   evaluation/            Weights, grading scale, exams, homework, quizzes, engagement
-  course_policies/       Textbook, attendance, late work, make-ups, honor code
+  course_policies/       Textbook, attendance, behavior, late work, make-ups, instructor absence, honor code, AI use
   student_services/      Disability, counseling, ENS, withdrawal, LMS help, tutoring
   schedule/              make_schedule.py and the generated main.ptx table
 ```
@@ -48,7 +48,7 @@ The remaining placeholder prose should be filled in directly in the correspondin
 | [`evaluation/weights.ptx`](source/evaluation/weights.ptx) | Grade categories and weights (defaults: homework 30%, two exams 20% each, final 30%) |
 | [`evaluation/grading_scale.ptx`](source/evaluation/grading_scale.ptx) | Letter-grade cutoffs (defaults to a straight 90/80/70/60 scale) |
 
-The evaluation and policy sections (`exams.ptx`, `homework.ptx`, `quizzes.ptx`, `engagement.ptx`, `late.ptx`, `attendance.ptx`, `make-up.ptx`) ship with working default prose. Read them before publishing — they state specific policies, such as late work not being accepted and academic dishonesty resulting in a grade of F for the course.
+The evaluation and policy sections (`exams.ptx`, `homework.ptx`, `quizzes.ptx`, `engagement.ptx`, `late.ptx`, `attendance.ptx`, `behavior.ptx`, `make-up.ptx`, `instructor_absence.ptx`, `ai.ptx`) ship with working default prose. Read them before publishing — they state specific policies, such as late work not being accepted and academic dishonesty resulting in a grade of F for the course.
 
 ### Branding and personal defaults
 
@@ -110,7 +110,7 @@ Several sections are conditional. They are tagged in the source with a `componen
 | --- | --- |
 | `graduate` | Extra expectations for cross-listed 5XXX/6XXX courses, in the homework and engagement sections. |
 | `exams` | Exams section and make-up policy. |
-| `engagement` | Graded participation/engagement. |
+| `engagement` | Engagement/participation statement. |
 | `homework` | Homework section. |
 | `quizzes` | Quizzes section. |
 | `BARC` | BARC university tutoring resources. |
