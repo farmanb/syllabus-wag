@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Per-course values. Each <custom ref="name"/> in the source is replaced by the matching <custom name="name"> below. -->
+<customizations>
+  <custom name="courseno">COURSE#</custom>
+  <custom name="sectionno">SECTION#</custom>
+  <custom name="term">TERM</custom>
+  <custom name="year">YEAR</custom>
+  <custom name="withdraw">Day of Week, Month, Day</custom>
+  <custom name="honorific"><abbr>Dr.</abbr></custom>
+  <custom name="firstname">Blake</custom>
+  <custom name="lastname">Farman</custom>
+  <custom name="department">Mathematics and Statistics</custom>
+  <custom name="institution">Louisiana Tech University</custom>
+  <custom name="phone">318.257.2951</custom>
+  <custom name="email">bfarman@latech.edu</custom>
+  <custom name="website"><url href="https://blakefarman.phd"/></custom>
+  <custom name="office">Nethken 235</custom>
+  <custom name="book">Book Title</custom>
+  <custom name="author">Authors</custom>
+  <custom name="edition">Nth</custom>
+  <custom name="ISBN">#############</custom>
+  <custom name="exam1">Day of Week, Month Day</custom>
+  <custom name="exam2">Day of Week, Month Day</custom>
+  <custom name="finalexam">Day of Week, Month Day</custom>
+</customizations>

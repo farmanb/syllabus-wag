@@ -6,11 +6,18 @@
       At a minimum, all policies stated in the current <url href="https://www.latech.edu/documents/student-life/student-handbook.pdf">Louisiana Tech University Student Handbook</url> should be followed.
       Additional class policies follow.
     </p>
+    <p>
+      This syllabus is posted on Canvas.
+      Every student is responsible for accessing it, reading it in full, and following the policies it contains; a paper copy will not be distributed.
+    </p>
   </introduction>
   
 <xi:include href="./textbook.ptx"/>  
 <xi:include href="./attendance.ptx"/>
+<xi:include href="./behavior.ptx"/>
 <xi:include href="./late.ptx"/>
 <xi:include href="./make-up.ptx"/>
+<xi:include href="./instructor_absence.ptx"/>
 <xi:include href="./honor_code.ptx"/>
+<xi:include href="./ai.ptx"/>
 </section>

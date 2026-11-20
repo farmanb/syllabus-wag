@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="ai_policy" label="ai_policy">
+  <title>Use of Artificial Intelligence</title>
+  <introduction>
+    <p>
+      Generative artificial intelligence (<init>AI</init>) tools (<eg/> ChatGPT, Claude, Gemini, Copilot) can be a useful study aid, but they cannot do the work of learning for you.
+      The goal of this course is to develop <em>your</em> understanding of the material, and that understanding is built only by working through problems yourself.
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="ai_quizzes_exams" label="ai_quizzes_exams">
+    <title>Quizzes and Exams</title>
+    <p>
+      The use of <init>AI</init> tools, or of any electronic device that can access them, is <alert>prohibited</alert> during all quizzes and exams.
+      Any such use will be treated as a case of academic dishonesty under the <xref ref="academic_honor_code" text="title"/>.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="ai_homework_studying" label="ai_homework_studying">
+    <title>Homework and Studying</title>
+    <p>
+      The same standard applies to <init>AI</init> that applies to working with classmates, in the sense that whatever help you use, you must be able to reproduce every solution on your own.
+      Within that standard, <init>AI</init> tools are permitted.
+      Productive uses include
+      <ul>
+        <li>asking for a different explanation of a definition or concept,</li>
+        <li>generating extra practice problems,</li>
+        <li>asking it to check work you have already completed.</li>
+      </ul>
+      However, asking it to solve an assigned problem before you have made a serious attempt yourself is generally <alert>not productive</alert>, since it removes the practice that the assignment is meant to provide.
+    </p>
+
+    <warning xml:id="ai_warning">
+      <p>
+        <init>AI</init> tools frequently produce answers that are confidently wrong.
+        Until you understand the material well enough to check their work, you will not be able to tell whether the tool has helped you or misled you.
+        Understanding the material yourself is therefore a prerequisite for using these tools effectively, not something they can replace.
+      </p>
+    </warning>
+  </subsubsection>
+</subsection>

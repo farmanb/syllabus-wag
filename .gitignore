@@ -102,3 +102,6 @@ venv/
 # Don't track deprecated workflows
 .github/workflows/deploy.yml
 .github/workflows/test-build.yml
+
+# Don't track editor backup files (Emacs, Vim, etc.)
+*~

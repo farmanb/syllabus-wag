@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="instructor_absence" label="instructor_absence">
+  <title>Instructor Absence</title>
+  <p>
+    If I must be absent from a class meeting, I will notify you as early as possible by email and through an announcement on Canvas.
+    Depending on the circumstances, class will be covered by a colleague, replaced with an assignment to be completed on your own, or cancelled.
+    Any cancelled material will be made up in subsequent meetings and the <xref ref="schedule" text="title"/> will be adjusted accordingly.
+    Please check your University email and Canvas before coming to class if you have any reason to suspect a disruption (<eg/> severe weather).
+  </p>
+</subsection>

@@ -1,62 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subsection xml:id="non-discrimination" label="non-discrimination">
-  <title>Non-Discrimination</title>
+  <title>Title IX and Discrimination Concerns</title>
   <p>
-    Louisiana Tech University is committed to the principle of providing the opportunity for learning and development of all qualified citizens without regard to race, color, national origin, religion, age, sex, sexual orientation, marital status, or disability.
-    Persons with concerns may contact the Louisiana Tech Director of Title IX Compliance:
+    Louisiana Tech University adheres to the equal opportunity provisions of federal and civil rights laws, and does not discriminate on the basis of race, color, national origin, religion, age, sex, sexual orientation, marital status, or disability.
+
+    <dl width="wide">
+      <li>
+	<title>Director of Title IX Compliance, President's Office</title>
+	<p>Mortissa D. Harvey, Wyly Tower 1536, 318.257.5911, <email>mharvey@latech.edu</email></p>
+      </li>
+      <li>
+	<title>Section 504 Coordinator</title>
+	<p>Annie Jantz, Keeny Hall 305 (Division of Student Affairs), 318.257.2445, <email>ajantz@latech.edu</email></p>
+      </li>
+      <li>
+	<title>Equal Employment Opportunity (<init>EEO</init>) Officer</title>
+	<p>Sheila Trammel, Keeny Hall 152, 318.257.2235, <email>strammel@latech.edu</email></p>
+      </li>
+    </dl>
   </p>
-  
-  <assemblage xml:id="title_ix_contact">
-    <p>
-      <dl>
-	<li>
-	  <title/>
-	  <!-- <title>Director of Title IX Compliance, President’s Office</title> -->
-	  <p>Mortissa D. Harvey</p>
-	</li>
-	<li>
-	  <title>Phone</title>
- 	  <p>318.257.5911</p>
-	</li>
-	<li>
-	  <title>Office</title>
-	  <p>Wyly Tower 1536</p>
- 	</li>
-	<li>
-	  <title>Email</title>
-	  <p><email>mharvey@latech.edu</email></p>
-	</li>
-      </dl>
-    </p>
-  </assemblage>
-
-  <p>
-    Section 504 is a federal law designed to protect the rights of individuals with disabilities in programs and activities that receive Federal financial assistance from the U.S. Department of Education.
-    Persons with concerns may contact the Section 504 Coordinator:
-  </p>
-
-  <assemblage xml:id="section_504_contact">
-
-    <p>
-      <dl>
-	<li>
-	  <title/>
-	  <!-- <title>Section 504 Coordinator</title> -->
-	  <p>Annie Jantz</p>
-	</li>
-	<li>
-	  <title>Phone</title>
-	  <p>318.257.2445</p>
-	</li>
-	<li>
-	  <title>Office</title>
-	  <p>Division of Student Affairs; Keeny Hall 305</p>
-	</li>
- 	<li>
-	  <title>Email</title>
-	  <p><email>ajantz@latech.edu</email></p>
-	</li>
-      </dl>
-    </p>
-  </assemblage>
 </subsection>
