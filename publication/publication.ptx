@@ -7,14 +7,11 @@
     <tableofcontents level="2" />
   </common>
 
-  <!-- directories are relative to the main source PreTeXt file -->
   <source>
-    <!-- The external directory is declared in source/docinfo.ptx -->
-    <directories generated="../generated-assets"/>
     <!-- Version flags -->
     <!-- graduate: Cross listed as a 5XXX or 6XXX course. -->
     <!-- exams: Course has exams. -->
-    <!-- engagement: Course has graded engagement/participation. -->
+    <!-- engagement: Course has an engagement/participation statement. -->
     <!-- homework: Course has homework -->
     <!-- quizzes: Course has quizzes -->
     <!-- BARC: Course has university tutoring resources -->
