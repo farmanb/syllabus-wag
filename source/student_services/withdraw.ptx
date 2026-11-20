@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE article [
-<!ENTITY % coursevars SYSTEM "../course-vars.ent">
-%coursevars;
-]>
 <subsection xml:id="withdraw_deadline" label="withdraw_deadline">
   <title>Drop with a <q>W</q> date</title>
   <p>
-    The latest date a student may drop a course (or resign their entire schedule) with a <q>W</q> grade for &term; &year; is &withdraw;, &year;.
+    The latest date a student may drop a course (or resign their entire schedule) with a <q>W</q> grade for <custom ref="term"/> <custom ref="year"/> is <custom ref="withdraw"/>, <custom ref="year"/>.
   </p>
 </subsection>

@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE article [
-<!ENTITY % coursevars SYSTEM "../course-vars.ent">
-%coursevars;
-]>
 <subsection xml:id="exams" label="exams" component="exams">
   <title>Exams</title>
   <p>
@@ -19,15 +15,15 @@
       </row>
       <row>
 	<cell>Exam 1</cell>
-	<cell>&exam1;, &year;</cell>
+	<cell><custom ref="exam1"/>, <custom ref="year"/></cell>
       </row>
       <row>
 	<cell>Exam 2</cell>
-	<cell>&exam2;, &year;</cell>
+	<cell><custom ref="exam2"/>, <custom ref="year"/></cell>
       </row>
       <row>
 	<cell>Final Exam</cell>
-	<cell>&finalexam;, &year;</cell>
+	<cell><custom ref="finalexam"/>, <custom ref="year"/></cell>
       </row>
     </tabular>
   </assemblage>

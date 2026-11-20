@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE article [
-<!ENTITY % coursevars SYSTEM "../course-vars.ent">
-%coursevars;
-]>
 <section xml:id="evaluation" label="evaluation" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Evaluation</title>
 

@@ -7,7 +7,7 @@
     <tableofcontents level="2" />
   </common>
 
-  <source>
+  <source customizations="course-vars.xml">
     <!-- Version flags -->
     <!-- graduate: Cross listed as a 5XXX or 6XXX course. -->
     <!-- exams: Course has exams. -->

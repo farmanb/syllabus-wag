@@ -12,7 +12,7 @@ publication/             Publication file: chunking, theme, and version flags
 assets/                  Logos and favicons
 source/
   main.ptx               Document root; XIncludes every section below
-  course-vars.ent        Per-course entities (see below)
+  course-vars.xml        Per-course values (see below)
   docinfo.ptx            Brand logo
   frontmatter.ptx        Author, copyright, license
   contact_information/   Instructor info, office hours, email etiquette
@@ -25,7 +25,7 @@ source/
 
 ## Customizing the syllabus
 
-Most per-course details are defined as entities in [`source/course-vars.ent`](source/course-vars.ent). Edit the values there to set:
+Most per-course details are defined in [`source/course-vars.xml`](source/course-vars.xml), which the publication file names as its customizations file. Edit the values there to set:
 
 - the course number, section, term, and year;
 - the instructor's honorific, first and last name, phone, email, website, and office;
@@ -33,7 +33,9 @@ Most per-course details are defined as entities in [`source/course-vars.ent`](so
 - the textbook title, author, edition, and ISBN;
 - the two exam dates, the final exam date, and the drop-with-a-`W` deadline.
 
-Each value is reused everywhere the corresponding entity appears, so editing it in one place updates every section that references it.
+Each value is a `<custom name="...">` element, and PreTeXt substitutes it for every `<custom ref="..."/>` in the source, so editing it in one place updates every section that references it.
+A value may contain markup; for example, `website` holds a complete `<url>` element, since a custom value cannot be used inside an attribute.
+To add a value, add a `<custom name="...">` to `course-vars.xml` and reference it with `<custom ref="..."/>`.
 
 The remaining placeholder prose should be filled in directly in the corresponding files under `source/`:
 
@@ -52,7 +54,7 @@ The evaluation and policy sections (`exams.ptx`, `homework.ptx`, `quizzes.ptx`, 
 
 ### Branding and personal defaults
 
-A few values are hard-coded rather than driven by entities. Change them when adopting the template:
+A few values are hard-coded rather than drawn from `course-vars.xml`. Change them when adopting the template:
 
 - [`source/frontmatter.ptx`](source/frontmatter.ptx) — copyright holder and years.
 - [`source/docinfo.ptx`](source/docinfo.ptx) — the brand logo and the URL it links to.

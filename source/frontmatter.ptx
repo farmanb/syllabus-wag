@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article [
-  <!ENTITY % coursevars SYSTEM "course-vars.ent">
-  %coursevars;
-]>
 <frontmatter xml:id="frontmatter">
   <bibinfo>
     <author>
-      <personname>&firstname; &lastname;</personname>
-      <department>&department;</department>
-      <institution>&institution;</institution>
+      <personname><custom ref="firstname"/> <custom ref="lastname"/></personname>
+      <department><custom ref="department"/></department>
+      <institution><custom ref="institution"/></institution>
     </author>
     <date>
       <today />
     </date>
     <website>
-      <url href="&website;"/>
+      <custom ref="website"/>
     </website>
 
     <copyright>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE article [
-  <!ENTITY % coursevars SYSTEM "../course-vars.ent">
-  %coursevars;
-]>
 <subsection xml:id="textbook" label="textbook">
   <title>Textbook</title>
   <assemblage xml:id="required_textbook">
     <title>Required Textbook</title>
     <p>
-      <pubtitle>&book;</pubtitle>, &edition; edition, by &author;, <init>ISBN</init> &ISBN;.
+      <pubtitle><custom ref="book"/></pubtitle>, <custom ref="edition"/> edition, by <custom ref="author"/>, <init>ISBN</init> <custom ref="ISBN"/>.
     </p>
   </assemblage>
 
