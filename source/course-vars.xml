@@ -15,6 +15,9 @@
   <custom name="email">bfarman@latech.edu</custom>
   <custom name="website"><url href="https://blakefarman.phd"/></custom>
   <custom name="office">Nethken 235</custom>
+  <custom name="officedays">Days</custom>
+  <custom name="officetimes">TIME <init>PM</init> <ndash/> TIME <init>PM</init></custom>
+  <custom name="booking"><url href="https://calendar.app.google/P4eXVentVBPbd8F27">booking page</url></custom>
   <custom name="book">Book Title</custom>
   <custom name="author">Authors</custom>
   <custom name="edition">Nth</custom>

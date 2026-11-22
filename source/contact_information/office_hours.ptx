@@ -4,9 +4,10 @@
   <p>
     <dl>
       <li>
-	<title>Days</title>
-	<p>TIME <init>PM</init> <ndash/> TIME <init>PM</init></p>
+	<title><custom ref="officedays"/></title>
+	<p><custom ref="officetimes"/></p>
       </li>
     </dl>
+    Please make an appointment using my <custom ref="booking"/>.
   </p>
 </subsection>

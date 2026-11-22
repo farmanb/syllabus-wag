@@ -29,12 +29,14 @@ Most per-course details are defined in [`source/course-vars.xml`](source/course-
 
 - the course number, section, term, and year;
 - the instructor's honorific, first and last name, phone, email, website, and office;
+- the office-hour days and times, and the appointment booking page;
 - the department and institution (used on the title page);
 - the textbook title, author, edition, and ISBN;
 - the two exam dates, the final exam date, and the drop-with-a-`W` deadline.
 
 Each value is a `<custom name="...">` element, and PreTeXt substitutes it for every `<custom ref="..."/>` in the source, so editing it in one place updates every section that references it.
-A value may contain markup; for example, `website` holds a complete `<url>` element, since a custom value cannot be used inside an attribute.
+A value may contain markup; for example, `website` and `booking` each hold a complete `<url>` element, since a custom value cannot be used inside an attribute, and `officetimes` may use `<init>` and `<ndash/>`.
+For more than one block of office hours, add a `<li>` to [`contact_information/office_hours.ptx`](source/contact_information/office_hours.ptx) with its own pair of values.
 To add a value, add a `<custom name="...">` to `course-vars.xml` and reference it with `<custom ref="..."/>`.
 
 The remaining placeholder prose should be filled in directly in the corresponding files under `source/`:
@@ -46,7 +48,6 @@ The remaining placeholder prose should be filled in directly in the correspondin
 | [`course_information/prereqs.ptx`](source/course_information/prereqs.ptx) | Prerequisites |
 | [`course_information/student_learning_outcomes.ptx`](source/course_information/student_learning_outcomes.ptx) | Student learning outcomes |
 | [`course_information/instructional_methods.ptx`](source/course_information/instructional_methods.ptx) | Delivery mode (defaults to face-to-face lecture) |
-| [`contact_information/office_hours.ptx`](source/contact_information/office_hours.ptx) | Office-hour days and times |
 | [`evaluation/weights.ptx`](source/evaluation/weights.ptx) | Grade categories and weights (defaults: homework 30%, two exams 20% each, final 30%) |
 | [`evaluation/grading_scale.ptx`](source/evaluation/grading_scale.ptx) | Letter-grade cutoffs (defaults to a straight 90/80/70/60 scale) |
 
